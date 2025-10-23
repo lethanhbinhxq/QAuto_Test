@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Automation Tool | Test Runs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155',
+                            600: '#475569',
+                        },
+                        primary: {
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #475569;
+            border-radius: 20px;
+        }
+        .chart-grid line {
+            stroke: #334155;
+        }
+        .chart-text {
+            fill: #94a3b8;
+        }
+        .status-badge {
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .status-passed {
+            background-color: rgba(74, 222, 128, 0.1);
+            color: #4ade80;
+        }
+        .status-failed {
+            background-color: rgba(248, 113, 113, 0.1);
+            color: #f87171;
+        }
+        .status-running {
+            background-color: rgba(250, 204, 21, 0.1);
+            color: #facc15;
+        }
+        .status-pending {
+            background-color: rgba(148, 163, 184, 0.1);
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-gray-200 min-h-screen">
+    <div class="container mx-auto px-4 py-6">
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-8">
+            <div class="flex items-center space-x-4">
+                <div class="text-primary-500">
+                    <i class="fas fa-robot text-3xl"></i>
+                </div>
+                <h1 class="text-2xl font-bold">QAuto</h1>
+            </div>
+            
+            <div class="flex items-center space-x-6">
+                <div class="relative">
+                    <button class="p-2 rounded-full hover:bg-dark-700 transition">
+                        <i class="fas fa-bell text-xl"></i>
+                        <span class="absolute top-0 right-0 h-2 w-2 rounded-full bg-red-500"></span>
+                    </button>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 rounded-full bg-primary-500 flex items-center justify-center">
+                        <span class="font-semibold">JD</span>
+                    </div>
+                    <span class="hidden md:inline">John Doe</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Project Header -->
+        <div class="bg-dark-800 rounded-xl p-6 mb-6">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h2 class="text-xl font-semibold mb-1">E-Commerce Platform</h2>
+                    <p class="text-gray-400">Last updated: 2 hours ago</p>
+                </div>
+                <div class="mt-4 md:mt-0 flex space-x-3">
+                    <button class="px-4 py-2 bg-primary-500 hover:bg-primary-600 rounded-lg font-medium transition">
+                        <i class="fas fa-plus mr-2"></i> New Test Run
+                    </button>
+                    <button class="px-4 py-2 bg-dark-700 hover:bg-dark-600 rounded-lg font-medium transition">
+                        <i class="fas fa-cog mr-2"></i> Settings
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="flex border-b border-dark-700 mb-6">
+            <button class="px-4 py-3 font-medium text-gray-400 hover:text-white transition">
+                <i class="fas fa-home mr-2"></i> Dashboard
+            </button>
+            <button class="px-4 py-3 font-medium text-gray-400 hover:text-white transition">
+                <i class="fas fa-list-check mr-2"></i> Test Cases
+            </button>
+            <button class="px-4 py-3 font-medium border-b-2 border-primary-500 text-white transition">
+                <i class="fas fa-play mr-2"></i> Test Runs
+            </button>
+            <button class="px-4 py-3 font-medium text-gray-400 hover:text-white transition">
+                <i class="fas fa-bug mr-2"></i> Bugs
+            </button>
+            <button class="px-4 py-3 font-medium text-gray-400 hover:text-white transition">
+                <i class="fas fa-users mr-2"></i> Team
+            </button>
+        </div>
+
+        <!-- Quality Overview -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+            <!-- Quality Score Card -->
+            <div class="bg-dark-800 rounded-xl p-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-gray-400 mb-1">Quality Score</h3>
+                        <p class="text-3xl font-bold">92%</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center">
+                        <i class="fas fa-check text-green-500"></i>
+                    </div>
+                </div>
+                <div class="mt-4 h-2 w-full bg-dark-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-green-500 rounded-full" style="width: 92%"></div>
+                </div>
+            </div>
+
+            <!-- Total Runs Card -->
+            <div class="bg-dark-800 rounded-xl p-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-gray-400 mb-1">Total Runs</h3>
+                        <p class="text-3xl font-bold">48</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center">
+                        <i class="fas fa-chart-line text-blue-500"></i>
+                    </div>
+                </div>
+                <div class="mt-4 text-sm text-green-500">
+                    <i class="fas fa-arrow-up mr-1"></i> 12% from last week
+                </div>
+            </div>
+
+            <!-- Failed Tests Card -->
+            <div class="bg-dark-800 rounded-xl p-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-gray-400 mb-1">Failed Tests</h3>
+                        <p class="text-3xl font-bold">8</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center">
+                        <i class="fas fa-times text-red-500"></i>
+                    </div>
+                </div>
+                <div class="mt-4 text-sm text-red-500">
+                    <i class="fas fa-arrow-up mr-1"></i> 2 new failures
+                </div>
+            </div>
+
+            <!-- Coverage Card -->
+            <div class="bg-dark-800 rounded-xl p-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-gray-400 mb-1">Test Coverage</h3>
+                        <p class="text-3xl font-bold">78%</p>
+                    </div>
+                    <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center">
+                        <i class="fas fa-shield-alt text-yellow-500"></i>
+                    </div>
+                </div>
+                <div class="mt-4 h-2 w-full bg-dark-700 rounded-full overflow-hidden">
+                    <div class="h-full bg-yellow-500 rounded-full" style="width: 78%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test Runs Section -->
+        <div class="bg-dark-800 rounded-xl overflow-hidden mb-6">
+            <div class="p-6 border-b border-dark-700 flex justify-between items-center">
+                <h3 class="text-lg font-semibold">Recent Test Runs</h3>
+                <div class="flex space-x-3">
+                    <div class="relative">
+                        <input type="text" placeholder="Search runs..." class="bg-dark-700 border border-dark-600 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                    </div>
+                    <button class="px-3 py-2 bg-dark-700 hover:bg-dark-600 rounded-lg transition">
+                        <i class="fas fa-filter"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Test Runs Table -->
+            <div class="overflow-x-auto custom-scrollbar">
+                <table class="w-full">
+                    <thead class="bg-dark-700 text-gray-400 text-left">
+                        <tr>
+                            <th class="px-6 py-3 font-medium">Run ID</th>
+                            <th class="px-6 py-3 font-medium">Test Suite</th>
+                            <th class="px-6 py-3 font-medium">Environment</th>
+                            <th class="px-6 py-3 font-medium">Status</th>
+                            <th class="px-6 py-3 font-medium">Duration</th>
+                            <th class="px-6 py-3 font-medium">Date</th>
+                            <th class="px-6 py-3 font-medium">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-dark-700">
+                        <!-- Run 1 -->
+                        <tr class="hover:bg-dark-700 transition cursor-pointer">
+                            <td class="px-6 py-4 font-medium">#TR-1024</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-fire text-orange-500 mr-2"></i>
+                                    Smoke Tests
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center space-x-2">
+                                    <i class="fab fa-chrome text-blue-400"></i>
+                                    <span>Chrome v112</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <span class="status-badge status-passed">
+                                    <i class="fas fa-check-circle mr-1"></i> Passed
+                                </span>
+                            </td>
+                            <td class="px-6 py-4">2m 14s</td>
+                            <td class="px-6 py-4">Today, 10:42 AM</td>
+                            <td class="px-6 py-4">
+                                <button class="p-2 hover:bg-dark-600 rounded-lg transition">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </td>
+                        </tr>
+
+                        <!-- Run 2 -->
+                        <tr class="hover:bg-dark-700 transition cursor-pointer">
+                            <td class="px-6 py-4 font-medium">#TR-1023</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-list-check text-blue-400 mr-2"></i>
+                                    Regression Suite
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center space-x-2">
+                                    <i class="fab fa-firefox text-orange-400"></i>
+                                    <span>Firefox v111</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <span class="status-badge status-failed">
+                                    <i class="fas fa-times-circle mr-1"></i> Failed
+                                </span>
+                            </td>
+                            <td class="px-6 py-4">8m 37s</td>
+                            <td class="px-6 py-4">Yesterday, 3:15 PM</td>
+                            <td class="px-6 py-4">
+                                <button class="p-2 hover:bg-dark-600 rounded-lg transition">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </td>
+                        </tr>
+
+                        <!-- Run 3 -->
+                        <tr class="hover:bg-dark-700 transition cursor-pointer">
+                            <td class="px-6 py-4 font-medium">#TR-1022</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-mobile-screen text-purple-400 mr-2"></i>
+                                    Mobile Tests
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center space-x-2">
+                                    <i class="fab fa-safari text-blue-500"></i>
+                                    <span>Safari v16</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <span class="status-badge status-running">
+                                    <i class="fas fa-spinner fa-spin mr-1"></i> Running
+                                </span>
+                            </td>
+                            <td class="px-6 py-4">-</td>
+                            <td class="px-6 py-4">Today, 11:20 AM</td>
+                            <td class="px-6 py-4">
+                                <button class="p-2 hover:bg-dark-600 rounded-lg transition">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </td>
+                        </tr>
+
+                        <!-- Run 4 -->
+                        <tr class="hover:bg-dark-700 transition cursor-pointer">
+                            <td class="px-6 py-4 font-medium">#TR-1021</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-bolt text-yellow-400 mr-2"></i>
+                                    Performance Tests
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center space-x-2">
+                                    <i class="fab fa-edge text-blue-300"></i>
+                                    <span>Edge v112</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <span class="status-badge status-passed">
+                                    <i class="fas fa-check-circle mr-1"></i> Passed
+                                </span>
+                            </td>
+                            <td class="px-6 py-4">15m 22s</td>
+                            <td class="px-6 py-4">Yesterday, 10:05 AM</td>
+                            <td class="px-6 py-4">
+                                <button class="p-2 hover:bg-dark-600 rounded-lg transition">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </td>
+                        </tr>
+
+                        <!-- Run 5 -->
+                        <tr class="hover:bg-dark-700 transition cursor-pointer">
+                            <td class="px-6 py-4 font-medium">#TR-1020</td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-user-shield text-green-400 mr-2"></i>
+                                    Security Tests
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <div class="flex items-center space-x-2">
+                                    <i class="fab fa-chrome text-blue-400"></i>
+                                    <span>Chrome v112</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4">
+                                <span class="status-badge status-pending">
+                                    <i class="fas fa-clock mr-1"></i> Pending
+                                </span>
+                            </td>
+                            <td class="px-6 py-4">-</td>
+                            <td class="px-6 py-4">Scheduled</td>
+                            <td class="px-6 py-4">
+                                <button class="p-2 hover:bg-dark-600 rounded-lg transition">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination -->
+            <div class="p-4 border-t border-dark-700 flex items-center justify-between">
+                <div class="text-gray-400">
+                    Showing <span class="font-medium text-white">1</span> to <span class="font-medium text-white">5</span> of <span class="font-medium text-white">24</span> runs
+                </div>
+                <div class="flex space-x-2">
+                    <button class="px-3 py-1 bg-dark-700 hover:bg-dark-600 rounded transition">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="px-3 py-1 bg-primary-500 text-white rounded">1</button>
+                    <button class="px-3 py-1 bg-dark-700 hover:bg-dark-600 rounded transition">2</button>
+                    <button class="px-3 py-1 bg-dark-700 hover:bg-dark-600 rounded transition">3</button>
+                    <button class="px-3 py-1 bg-dark-700 hover:bg-dark-600 rounded transition">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test Suites Section -->
+        <div class="bg-dark-800 rounded-xl overflow-hidden mb-6">
+            <div class="p-6 border-b border-dark-700 flex justify-between items-center">
+                <h3 class="text-lg font-semibold">Test Suites</h3>
+                <button class="px-4 py-2 bg-primary-500 hover:bg-primary-600 rounded-lg font-medium transition">
+                    <i class="fas fa-plus mr-2"></i> New Suite
+                </button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+                <!-- Suite 1 -->
+                <div class="bg-dark-700 rounded-lg p-5 hover:bg-dark-600 transition cursor-pointer">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center">
+                            <i class="fas fa-fire text-blue-500 text-xl"></i>
+                        </div>
+                        <span class="status-badge status-passed">5/5 passed</span>
+                    </div>
+                    <h4 class="font-semibold mb-1">Smoke Tests</h4>
+                    <p class="text-gray-400 text-sm mb-3">Basic functionality verification</p>
+                    <div class="flex justify-between text-sm text-gray-400">
+                        <span>Last run: Today</span>
+                        <span>15 tests</span>
+                    </div>
+                </div>
+
+                <!-- Suite 2 -->
+                <div class="bg-dark-700 rounded-lg p-5 hover:bg-dark-600 transition cursor-pointer">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-purple-500/10 flex items-center justify-center">
+                            <i class="fas fa-list-check text-purple-500 text-xl"></i>
+                        </div>
+                        <span class="status-badge status-failed">12/15 passed</span>
+                    </div>
+                    <h4 class="font-semibold mb-1">Regression Suite</h4>
+                    <p class="text-gray-400 text-sm mb-3">Full feature coverage</p>
+                    <div class="flex justify-between text-sm text-gray-400">
+                        <span>Last run: Yesterday</span>
+                        <span>87 tests</span>
+                    </div>
+                </div>
+
+                <!-- Suite 3 -->
+                <div class="bg-dark-700 rounded-lg p-5 hover:bg-dark-600 transition cursor-pointer">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-yellow-500/10 flex items-center justify-center">
+                            <i class="fas fa-bolt text-yellow-500 text-xl"></i>
+                        </div>
+                        <span class="status-badge status-passed">8/8 passed</span>
+                    </div>
+                    <h4 class="font-semibold mb-1">Performance Tests</h4>
+                    <p class="text-gray-400 text-sm mb-3">Load and response times</p>
+                    <div class="flex justify-between text-sm text-gray-400">
+                        <span>Last run: 2 days ago</span>
+                        <span>22 tests</span>
+                    </div>
+                </div>
+
+                <!-- Suite 4 -->
+                <div class="bg-dark-700 rounded-lg p-5 hover:bg-dark-600 transition cursor-pointer">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-12 h-12 rounded-lg bg-green-500/10 flex items-center justify-center">
+                            <i class="fas fa-user-shield text-green-500 text-xl"></i>
+                        </div>
+                        <span class="status-badge status-pending">Not run</span>
+                    </div>
+                    <h4 class="font-semibold mb-1">Security Tests</h4>
+                    <p class="text-gray-400 text-sm mb-3">Vulnerability checks</p>
+                    <div class="flex justify-between text-sm text-gray-400">
+                        <span>Last run: Never</span>
+                        <span>9 tests</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quality Trend Chart -->
+        <div class="bg-dark-800 rounded-xl p-6 mb-6">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-lg font-semibold">Quality Trend (Last 30 Days)</h3>
+                <div class="flex space-x-2">
+                    <button class="px-3 py-1 bg-dark-700 hover:bg-dark-600 rounded text-sm transition">Daily</button>
+                    <button class="px-3 py-1 bg-primary-500 text-white rounded text-sm">Weekly</button>
+                    <button class="px-3 py-1 bg-dark-700 hover:bg-dark-600 rounded text-sm transition">Monthly</button>
+                </div>
+            </div>
+            
+            <div class="h-64">
+                <svg width="100%" height="100%" viewBox="0 0 800 250" class="chart-grid">
+                    <!-- X Axis -->
+                    <line x1="50" y1="200" x2="750" y2="200" stroke="#334155" stroke-width="1" />
+                    <!-- Y Axis -->
+                    <line x1="50" y1="50" x2="50" y2="200" stroke="#334155" stroke-width="1" />
+                    
+                    <!-- Grid Lines -->
+                    <line x1="50" y1="170" x2="750" y2="170" stroke="#334155" stroke-width="0.5" stroke-dasharray="5,5" />
+                    <line x1="50" y1="140" x2="750" y2="140" stroke="#334155" stroke-width="0.5" stroke-dasharray="5,5" />
+                    <line x1="50" y1="110" x2="750" y2="110" stroke="#334155" stroke-width="0.5" stroke-dasharray="5,5" />
+                    <line x1="50" y1="80" x2="750" y2="80" stroke="#334155" stroke-width="0.5" stroke-dasharray="5,5" />
+                    
+                    <!-- Y Axis Labels -->
+                    <text x="30" y="50" class="chart-text" text-anchor="end" font-size="12">100%</text>
+                    <text x="30" y="80" class="chart-text" text-anchor="end" font-size="12">80%</text>
+                    <text x="30" y="110" class="chart-text" text-anchor="end" font-size="12">60%</text>
+                    <text x="30" y="140" class="chart-text" text-anchor="end" font-size="12">40%</text>
+                    <text x="30" y="170" class="chart-text" text-anchor="end" font-size="12">20%</text>
+                    <text x="30" y="200" class="chart-text" text-anchor="end" font-size="12">0%</text>
+                    
+                    <!-- X Axis Labels -->
+                    <text x="125" y="220" class="chart-text" text-anchor="middle" font-size="12">Week 1</text>
+                    <text x="275" y="220" class="chart-text" text-anchor="middle" font-size="12">Week 2</text>
+                    <text x="425" y="220" class="chart-text" text-anchor="middle" font-size="12">Week 3</text>
+                    <text x="575" y="220" class="chart-text" text-anchor="middle" font-size="12">Week 4</text>
+                    <text x="725" y="220" class="chart-text" text-anchor="middle" font-size="12">Week 5</text>
+                    
+                    <!-- Trend Line -->
+                    <polyline 
+                        points="75,180 125,160 175,170 225,150 275,140 325,160 375,180 425,170 475,190 525,180 575,170 625,160 675,150 725,140" 
+                        fill="none" 
+                        stroke="#6366f1" 
+                        stroke-width="3" 
+                        stroke-linejoin="round" 
+                        stroke-linecap="round"
+                    />
+                    
+                    <!-- Data Points -->
+                    <circle cx="75" cy="180" r="4" fill="#6366f1" />
+                    <circle cx="125" cy="160" r="4" fill="#6366f1" />
+                    <circle cx="175" cy="170" r="4" fill="#6366f1" />
+                    <circle cx="225" cy="150" r="4" fill="#6366f1" />
+                    <circle cx="275" cy="140" r="4" fill="#6366f1" />
+                    <circle cx="325" cy="160" r="4" fill="#6366f1" />
+                    <circle cx="375" cy="180" r="4" fill="#6366f1" />
+                    <circle cx="425" cy="170" r="4" fill="#6366f1" />
+                    <circle cx="475" cy="190" r="4" fill="#6366f1" />
+                    <circle cx="525" cy="180" r="4" fill="#6366f1" />
+                    <circle cx="575" cy="170" r="4" fill="#6366f1" />
+                    <circle cx="625" cy="160" r="4" fill="#6366f1" />
+                    <circle cx="675" cy="150" r="4" fill="#6366f1" />
+                    <circle cx="725" cy="140" r="4" fill="#6366f1" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Run Details Modal (Hidden by default) -->
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-dark-800 rounded-xl w-full max-w-4xl max-h-[90vh] overflow-y-auto custom-scrollbar">
+            <div class="p-6 border-b border-dark-700 flex justify-between items-center sticky top-0 bg-dark-800 z-10">
+                <h3 class="text-xl font-semibold">Test Run #TR-1024 Details</h3>
+                <button class="p-2 hover:bg-dark-700 rounded-lg transition">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                    <div class="bg-dark-700 rounded-lg p-4">
+                        <h4 class="text-gray-400 mb-2">Test Suite</h4>
+                        <p class="font-medium">Smoke Tests</p>
+                    </div>
+                    <div class="bg-dark-700 rounded-lg p-4">
+                        <h4 class="text-gray-400 mb-2">Environment</h4>
+                        <div class="flex items-center space-x-2">
+                            <i class="fab fa-chrome text-blue-400"></i>
+                            <span>Chrome v112 on Windows 11</span>
+                        </div>
+                    </div>
+                    <div class="bg-dark-700 rounded-lg p-4">
+                        <h4 class="text-gray-400 mb-2">Status</h4>
+                        <span class="status-badge status-passed">
+                            <i class="fas fa-check-circle mr-1"></i> Passed (15/15)
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h4 class="text-lg font-semibold mb-4">Execution Details</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-dark-700 rounded-lg p-3 text-center">
+                            <div class="text-gray-400 text-sm mb-1">Start Time</div>
+                            <div class="font-medium">Today, 10:42 AM</div>
+                        </div>
+                        <div class="bg-dark-700 rounded-lg p-3 text-center">
+                            <div class="text-gray-400 text-sm mb-1">Duration</div>
+                            <div class="font-medium">2m 14s</div>
+                        </div>
+                        <div class="bg-dark-700 rounded-lg p-3 text-center">
+                            <div class="text-gray-400 text-sm mb-1">Initiated By</div>
+                            <div class="font-medium">John Doe</div>
+                        </div>
+                        <div class="bg-dark-700 rounded-lg p-3 text-center">
+                            <div class="text-gray-400 text-sm mb-1">Build Version</div>
+                            <div class="font-medium">v2.1.4-rc1</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h4 class="text-lg font-semibold mb-4">Test Results Breakdown</h4>
+                    <div class="h-40">
+                        <svg width="100%" height="100%" viewBox="0 0 400 150">
+                            <!-- Passed -->
+                            <rect x="0" y="50" width="300" height="30" rx="4" fill="#4ade80" />
+                            <text x="310" y="70" fill="#94a3b8" font-size="12" alignment-baseline="middle">15 Passed</text>
+                            
+                            <!-- Failed -->
+                            <rect x="0" y="90" width="0" height="30" rx="4" fill="#f87171" />
+                            <text x="310" y="110" fill="#94a3b8" font-size="12" alignment-baseline="middle">0 Failed</text>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h4 class="text-lg font-semibold mb-4">Attachments</h4>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div class="bg-dark-700 rounded-lg p-3 flex items-center space-x-3">
+                            <div class="w-10 h-10 bg-blue-500/10 rounded flex items-center justify-center">
+                                <i class="fas fa-file-alt text-blue-500"></i>
+                            </div>
+                            <div>
+                                <div class="font-medium text-sm">console_logs.txt</div>
+                                <div class="text-gray-400 text-xs">42 KB</div>
+                            </div>
+                        </div>
+                        <div class="bg-dark-700 rounded-lg p-3 flex items-center space-x-3">
+                            <div class="w-10 h-10 bg-purple-500/10 rounded flex items-center justify-center">
+                                <i class="fas fa-image text-purple-500"></i>
+                            </div>
+                            <div>
+                                <div class="font-medium text-sm">screenshot.png</div>
+                                <div class="text-gray-400 text-xs">320 KB</div>
+                            </div>
+                        </div>
+                        <div class="bg-dark-700 rounded-lg p-3 flex items-center space-x-3">
+                            <div class="w-10 h-10 bg-green-500/10 rounded flex items-center justify-center">
+                                <i class="fas fa-video text-green-500"></i>
+                            </div>
+                            <div>
+                                <div class="font-medium text-sm">execution.mp4</div>
+                                <div class="text-gray-400 text-xs">1.2 MB</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Actions</h4>
+                    <div class="flex space-x-3">
+                        <button class="px-4 py-2 bg-primary-500 hover:bg-primary-600 rounded-lg font-medium transition">
+                            <i class="fas fa-redo mr-2"></i> Re-run
+                        </button>
+                        <button class="px-4 py-2 bg-dark-700 hover:bg-dark-600 rounded-lg font-medium transition">
+                            <i class="fas fa-download mr-2"></i> Export Results
+                        </button>
+                        <button class="px-4 py-2 bg-dark-700 hover:bg-dark-600 rounded-lg font-medium transition">
+                            <i class="fas fa-share-alt mr-2"></i> Share
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple script to toggle the modal visibility
+        document.addEventListener('DOMContentLoaded', function() {
+            // When clicking on a test run row
+            const runRows = document.querySelectorAll('tbody tr');
+            const modal = document.querySelector('.fixed.hidden');
+            
+            runRows.forEach(row => {
+                row.addEventListener('click', function() {
+                    modal.classList.remove('hidden');
+                });
+            });
+            
+            // When clicking the close button
+            const closeButton = modal.querySelector('button');
+            closeButton.addEventListener('click', function() {
+                modal.classList.add('hidden');
+            });
+            
+            // Close modal when clicking outside
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

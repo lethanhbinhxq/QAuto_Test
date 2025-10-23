@@ -1,0 +1,46 @@
+# ninja log v6
+322	459	7823092443737920	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/appfirst_start_autogen/timestamp	466e21a1e5c339aa
+54	220	7827663570585564	.qt/qml_imports/appfirst_start_build.cmake	29428d9fa679451b
+610	659	7819629696638215	meta_types/qt6appfirst_start_debug_metatypes.json.gen	2a3c8feb6d1b447
+60	185	7827426715114698	.qt/appfirst_start_res.txt	a08315c52468ce36
+60	185	7827426715114698	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/appfirst_start_res.txt	a08315c52468ce36
+54	220	7827663570585564	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/qml_imports/appfirst_start_build.cmake	29428d9fa679451b
+438	624	7819629695579192	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_first_start.cpp	37766bea0342f5ba
+47	82	7827663569234109	.qt/appfirst_start_qml.txt	b5c669c5f919841c
+47	82	7827663569234109	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/appfirst_start_qml.txt	b5c669c5f919841c
+322	459	7823092443737920	appfirst_start_autogen/timestamp	466e21a1e5c339aa
+322	459	7823092443737920	appfirst_start_autogen/mocs_compilation.cpp	466e21a1e5c339aa
+322	459	7823092443737920	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/appfirst_start_autogen/mocs_compilation.cpp	466e21a1e5c339aa
+460	495	7823092445104266	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/meta_types/appfirst_start_json_file_list.txt	f5ff685d06f67211
+460	495	7823092445104266	meta_types/appfirst_start_json_file_list.txt	f5ff685d06f67211
+220	470	7827663573001995	.rcc/qmlcache/appfirst_start_Main_qml.cpp	a8345e557eae692
+460	495	7823092445104266	meta_types/appfirst_start_json_file_list.txt.timestamp	f5ff685d06f67211
+460	495	7823092445104266	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/meta_types/appfirst_start_json_file_list.txt.timestamp	f5ff685d06f67211
+227	262	7827663571024385	.qt/rcc/qrc_appfirst_start_raw_qml_0.cpp	628cc2f7378f978a
+227	262	7827663571024385	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appfirst_start_raw_qml_0.cpp	628cc2f7378f978a
+503	654	7823092446943928	.rcc/qmlcache/appfirst_start_temp_qml.cpp	7bb6e24ce0442ee7
+1186	3788	7819629701934726	CMakeFiles/appfirst_start.dir/main.cpp.obj	9d2847c4205a81d9
+438	624	7819629695579192	.qt/rcc/qrc_qmake_first_start.cpp	37766bea0342f5ba
+466	523	7823092445676718	.rcc/qmlcache/appfirst_start_qmlcache_loader.cpp	54c58eeeb89dbd84
+466	523	7823092445676718	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_qmlcache_loader.cpp	54c58eeeb89dbd84
+610	659	7819629696638215	meta_types/qt6appfirst_start_debug_metatypes.json	2a3c8feb6d1b447
+659	966	7819629698836518	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/first_start/appfirst_start.qmltypes	5dba1249a4ae6ae4
+610	659	7819629696638215	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/meta_types/qt6appfirst_start_debug_metatypes.json.gen	2a3c8feb6d1b447
+610	659	7819629696638215	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/meta_types/qt6appfirst_start_debug_metatypes.json	2a3c8feb6d1b447
+659	966	7819629698836518	first_start/appfirst_start.qmltypes	5dba1249a4ae6ae4
+659	966	7819629698836518	appfirst_start_qmltyperegistrations.cpp	5dba1249a4ae6ae4
+659	966	7819629698836518	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/appfirst_start_qmltyperegistrations.cpp	5dba1249a4ae6ae4
+220	470	7827663573001995	.rcc/qmlcache/appfirst_start_Main_qml.cpp.aotstats	a8345e557eae692
+1193	1272	7819629702014525	CMakeFiles/appfirst_start.dir/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_first_start.cpp.obj	36192b61dc18db2c
+220	470	7827663573001995	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_Main_qml.cpp	a8345e557eae692
+220	470	7827663573001995	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_Main_qml.cpp.aotstats	a8345e557eae692
+473	545	7827663573181577	CMakeFiles/appfirst_start.dir/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appfirst_start_raw_qml_0.cpp.obj	bf1718e485708576
+1183	1265	7819629701904948	CMakeFiles/appfirst_start.dir/appfirst_start_autogen/mocs_compilation.cpp.obj	da42bcf5b33a2b13
+470	4321	7827663573151598	CMakeFiles/appfirst_start.dir/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_Main_qml.cpp.obj	de66edbf6d109e3f
+655	3447	7823092447062906	CMakeFiles/appfirst_start.dir/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_qmlcache_loader.cpp.obj	d7cf16dc03cd2fe2
+1189	3730	7819629701964644	CMakeFiles/appfirst_start.dir/appfirst_start_qmltyperegistrations.cpp.obj	7dbc6589d3231292
+4321	5909	7827663611659584	appfirst_start.exe	23c64ab199a2d5ba
+503	654	7823092446943928	.rcc/qmlcache/appfirst_start_temp_qml.cpp.aotstats	7bb6e24ce0442ee7
+503	654	7823092446943928	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_temp_qml.cpp	7bb6e24ce0442ee7
+503	654	7823092446943928	D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_temp_qml.cpp.aotstats	7bb6e24ce0442ee7
+661	3399	7823092447122745	CMakeFiles/appfirst_start.dir/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/.rcc/qmlcache/appfirst_start_temp_qml.cpp.obj	e3a87d5505922fbf

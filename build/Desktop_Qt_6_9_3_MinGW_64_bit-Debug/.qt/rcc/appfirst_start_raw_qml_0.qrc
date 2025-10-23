@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/first_start/">
+    <file alias="Main.qml">D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/Main.qml</file>
+    <file alias="v21.html">D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/v21.html</file>
+  </qresource>
+</RCC>
+

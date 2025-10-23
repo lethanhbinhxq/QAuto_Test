@@ -1,0 +1,6 @@
+module first_start
+typeinfo appfirst_start.qmltypes
+prefer :/qt/qml/first_start/
+Main 1.0 Main.qml
+depends QtQuick
+
