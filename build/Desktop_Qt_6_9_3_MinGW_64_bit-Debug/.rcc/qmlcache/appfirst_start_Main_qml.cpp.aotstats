@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 10,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 85,
                         "errorMessage": "Cannot load property colors from (component in D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/Main.qml)::tailwind with type QVariant.",
                         "functionName": "color",
                         "line": 12
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 983,
+                        "durationMicroseconds": 1058,
                         "errorMessage": "Cannot generate efficient code for LoadClosure",
                         "functionName": "tailwind",
                         "line": 19
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 14,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 70
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "implicitHeight",
                         "line": 72
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
                         "line": 71
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 16,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 76
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 18,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 78
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 77
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 859,
                         "errorMessage": "",
                         "functionName": "acceptedButtons",
                         "line": 82
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 207,
                         "errorMessage": "Cannot retrieve a non-object type by ID: searchField",
                         "functionName": "onClicked",
                         "line": 83
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 81
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 96
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 95
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 59,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 99
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 100
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 106
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 107
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 28,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 104
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 31,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 105
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 112
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 115
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 31,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 113
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 124
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 125
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 129
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 130
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 54,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 134
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 77,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 135
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 49,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 136
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 137
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 138
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 143
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 152
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 150
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 151
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 107,
+                        "durationMicroseconds": 48,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 153
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 158
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 159
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 160
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 150,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 161
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 162
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 163
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 170
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 168
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 175
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 176
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 179
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 180
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 181
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 182
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 186
@@ -422,7 +422,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 187
@@ -430,7 +430,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 188
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 81,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 189
@@ -446,7 +446,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 195
@@ -454,7 +454,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 197
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 33,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 196
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 18,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 26,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 206
@@ -486,7 +486,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 208
@@ -494,7 +494,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitHeight",
                         "line": 209
@@ -502,7 +502,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 211
@@ -510,7 +510,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "bottomMargin",
                         "line": 212
@@ -518,7 +518,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 218
@@ -526,7 +526,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 50,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 216
@@ -534,7 +534,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
                         "line": 217
@@ -542,7 +542,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 223
@@ -550,7 +550,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 222
@@ -558,7 +558,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 226
@@ -566,7 +566,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 55,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 230
@@ -574,7 +574,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 231
@@ -582,7 +582,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 237
@@ -590,7 +590,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 238
@@ -598,7 +598,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 247
@@ -606,7 +606,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 248
@@ -614,7 +614,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 87,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 252
@@ -622,7 +622,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 46,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 253
@@ -630,7 +630,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 34,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 78,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitWidth",
                         "line": 254
@@ -638,7 +638,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 75,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitHeight",
                         "line": 257
@@ -646,7 +646,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 263
@@ -662,7 +662,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 268
@@ -670,7 +670,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 275
@@ -678,7 +678,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 274
@@ -686,7 +686,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 276
@@ -694,7 +694,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 85,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 282
@@ -710,7 +710,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 284
@@ -718,7 +718,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 292
@@ -726,7 +726,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 290
@@ -734,7 +734,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 90,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 298
@@ -750,7 +750,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 34,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 66,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitWidth",
                         "line": 300
@@ -758,7 +758,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 49,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitHeight",
                         "line": 303
@@ -766,7 +766,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 309
@@ -774,7 +774,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 315
@@ -782,7 +782,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 50,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 314
@@ -790,7 +790,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 321
@@ -798,7 +798,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 320
@@ -806,7 +806,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 322
@@ -822,7 +822,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 39,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 329
@@ -838,7 +838,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 338
@@ -846,7 +846,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 336
@@ -854,7 +854,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 348
@@ -862,7 +862,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 349
@@ -870,7 +870,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 353
@@ -878,7 +878,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 355
@@ -894,7 +894,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 360
@@ -902,7 +902,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 591,
+                        "durationMicroseconds": 611,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "tabs",
                         "line": 363
@@ -910,7 +910,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 361
@@ -918,7 +918,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 150,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "model",
                         "line": 386
@@ -926,7 +926,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 50,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitWidth",
                         "line": 390
@@ -942,7 +942,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 397
@@ -950,7 +950,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 396
@@ -958,7 +958,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 251,
+                        "durationMicroseconds": 307,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 400
@@ -982,7 +982,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 402
@@ -990,7 +990,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 403
@@ -998,7 +998,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 410
@@ -1006,7 +1006,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 223,
+                        "durationMicroseconds": 231,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "text",
                         "line": 416
@@ -1014,7 +1014,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 259,
+                        "durationMicroseconds": 264,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "color",
                         "line": 419
@@ -1022,7 +1022,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 417
@@ -1030,7 +1030,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 418
@@ -1038,7 +1038,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 425
@@ -1046,7 +1046,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 182,
+                        "durationMicroseconds": 185,
                         "errorMessage": "Cannot access value for name modelData",
                         "functionName": "color",
                         "line": 436
@@ -1054,7 +1054,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 432
@@ -1062,7 +1062,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 83,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 433
@@ -1070,7 +1070,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "bottom",
                         "line": 434
@@ -1078,7 +1078,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 443
@@ -1086,7 +1086,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 441
@@ -1094,7 +1094,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 453
@@ -1102,7 +1102,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "rowSpacing",
                         "line": 454
@@ -1110,7 +1110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "columnSpacing",
                         "line": 455
@@ -1118,7 +1118,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 265,
+                        "durationMicroseconds": 254,
                         "errorMessage": "",
                         "functionName": "columns",
                         "line": 456
@@ -1126,7 +1126,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "flow",
                         "line": 457
@@ -1134,7 +1134,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 40,
-                        "durationMicroseconds": 318,
+                        "durationMicroseconds": 396,
                         "errorMessage": "",
                         "functionName": "maxCardHeight",
                         "line": 459
@@ -1150,7 +1150,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 469
@@ -1158,7 +1158,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 471
@@ -1166,7 +1166,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 478
@@ -1174,7 +1174,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 51,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 475
@@ -1182,7 +1182,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
                         "line": 476
@@ -1198,7 +1198,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 482
@@ -1206,7 +1206,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 71,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 485
@@ -1214,7 +1214,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 486
@@ -1222,7 +1222,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 491
@@ -1230,7 +1230,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 492
@@ -1238,7 +1238,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 502
@@ -1246,7 +1246,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 503
@@ -1254,7 +1254,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 504
@@ -1262,7 +1262,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 61,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 505
@@ -1270,7 +1270,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 511
@@ -1278,7 +1278,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 509
@@ -1286,7 +1286,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 510
@@ -1294,7 +1294,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 512
@@ -1302,7 +1302,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 518
@@ -1310,7 +1310,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 519
@@ -1318,7 +1318,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 520
@@ -1326,7 +1326,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 38,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "bottomMargin",
                         "line": 523
@@ -1334,7 +1334,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 116,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 526
@@ -1342,7 +1342,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 527
@@ -1350,7 +1350,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 528
@@ -1358,7 +1358,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 108,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 529
@@ -1366,7 +1366,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 59,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 538
@@ -1374,7 +1374,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 539
@@ -1382,7 +1382,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 541
@@ -1390,7 +1390,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 548
@@ -1398,7 +1398,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 545
@@ -1406,7 +1406,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
                         "line": 546
@@ -1414,7 +1414,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 547
@@ -1422,7 +1422,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 43,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 552
@@ -1430,7 +1430,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 555
@@ -1438,7 +1438,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 556
@@ -1446,7 +1446,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 561
@@ -1454,7 +1454,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 562
@@ -1462,7 +1462,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 54,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 572
@@ -1470,7 +1470,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 573
@@ -1478,7 +1478,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 574
@@ -1486,7 +1486,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 72,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 575
@@ -1494,7 +1494,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 46,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 581
@@ -1502,7 +1502,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 579
@@ -1510,7 +1510,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 580
@@ -1526,7 +1526,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 588
@@ -1534,7 +1534,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 589
@@ -1542,7 +1542,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 595
@@ -1550,7 +1550,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 593
@@ -1558,7 +1558,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 594
@@ -1566,7 +1566,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 601
@@ -1574,7 +1574,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 600
@@ -1582,7 +1582,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 610
@@ -1590,7 +1590,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 611
@@ -1598,7 +1598,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 613
@@ -1606,7 +1606,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 620
@@ -1614,7 +1614,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 617
@@ -1622,7 +1622,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
                         "line": 618
@@ -1630,7 +1630,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 79,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 619
@@ -1638,7 +1638,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 624
@@ -1646,7 +1646,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 627
@@ -1654,7 +1654,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 36,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 628
@@ -1662,7 +1662,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 633
@@ -1670,7 +1670,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 634
@@ -1678,7 +1678,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 644
@@ -1686,7 +1686,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 645
@@ -1694,7 +1694,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 83,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 646
@@ -1702,7 +1702,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 62,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 647
@@ -1710,7 +1710,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 653
@@ -1718,7 +1718,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 651
@@ -1726,7 +1726,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 652
@@ -1734,7 +1734,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 654
@@ -1742,7 +1742,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 660
@@ -1750,7 +1750,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 661
@@ -1758,7 +1758,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 667
@@ -1766,7 +1766,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 665
@@ -1774,7 +1774,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 666
@@ -1782,7 +1782,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 673
@@ -1790,7 +1790,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 672
@@ -1798,7 +1798,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 20,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 682
@@ -1806,7 +1806,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 683
@@ -1814,7 +1814,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 685
@@ -1822,7 +1822,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 692
@@ -1830,7 +1830,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 29,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 689
@@ -1838,7 +1838,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
                         "line": 690
@@ -1846,7 +1846,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 33,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "alignment",
                         "line": 691
@@ -1854,7 +1854,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
                         "line": 696
@@ -1862,7 +1862,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 119,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 699
@@ -1870,7 +1870,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 700
@@ -1878,7 +1878,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 705
@@ -1886,7 +1886,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 706
@@ -1894,7 +1894,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "width",
                         "line": 716
@@ -1902,7 +1902,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 717
@@ -1910,7 +1910,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 718
@@ -1918,7 +1918,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 63,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 719
@@ -1926,7 +1926,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 34,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 725
@@ -1934,7 +1934,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 723
@@ -1942,7 +1942,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 37,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
                         "line": 724
@@ -1950,7 +1950,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 726
@@ -1958,7 +1958,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 732
@@ -1966,7 +1966,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 733
@@ -1974,7 +1974,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "height",
                         "line": 734
@@ -1982,7 +1982,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 38,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "bottomMargin",
                         "line": 737
@@ -1990,7 +1990,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 740
@@ -1998,7 +1998,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 741
@@ -2006,7 +2006,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 742
@@ -2014,7 +2014,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 122,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 743
@@ -2022,7 +2022,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 18,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
                         "line": 752
@@ -2030,7 +2030,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 19,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "radius",
                         "line": 753
@@ -2038,7 +2038,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 18,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 754
@@ -2046,7 +2046,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "implicitHeight",
                         "line": 755
@@ -2054,7 +2054,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 756
@@ -2062,7 +2062,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 32,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "bottomMargin",
                         "line": 757
@@ -2070,7 +2070,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 762
@@ -2078,34 +2078,34 @@
                     {
                         "codegenSuccessful": false,
                         "column": 31,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "margins",
-                        "line": 766
+                        "line": 767
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
-                        "line": 770
+                        "line": 771
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 33,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "pixelSize",
-                        "line": 771
+                        "line": 772
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 158,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "weight",
-                        "line": 772
+                        "line": 773
                     },
                     {
                         "codegenSuccessful": false,
@@ -2113,127 +2113,127 @@
                         "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "spacing",
-                        "line": 780
+                        "line": 781
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 119,
+                        "durationMicroseconds": 148,
                         "errorMessage": "",
                         "functionName": "implicitWidth",
-                        "line": 783
+                        "line": 784
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "implicitHeight",
-                        "line": 784
+                        "line": 785
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "color",
-                        "line": 789
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 29,
-                        "durationMicroseconds": 37,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "radius",
-                        "line": 792
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 37,
-                        "durationMicroseconds": 111,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: searchField",
-                        "functionName": "implicitHeight",
-                        "line": 793
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 55,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 788
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 100,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: searchField",
                         "functionName": "color",
                         "line": 790
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 35,
+                        "column": 29,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "Cannot access value for name tailwind",
+                        "functionName": "radius",
+                        "line": 793
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 87,
                         "errorMessage": "Cannot retrieve a non-object type by ID: searchField",
-                        "functionName": "width",
+                        "functionName": "implicitHeight",
+                        "line": 794
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 789
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: searchField",
+                        "functionName": "color",
                         "line": 791
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 30,
-                        "durationMicroseconds": 40,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "color",
-                        "line": 800
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 79,
-                        "errorMessage": "",
-                        "functionName": "family",
-                        "line": 799
+                        "column": 35,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: searchField",
+                        "functionName": "width",
+                        "line": 792
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 39,
+                        "column": 30,
+                        "durationMicroseconds": 37,
                         "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "pixelSize",
+                        "functionName": "color",
                         "line": 801
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 800
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot access value for name tailwind",
+                        "functionName": "pixelSize",
+                        "line": 802
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 802
+                        "line": 803
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 43,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "leftMargin",
-                        "line": 803
+                        "line": 804
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "top",
-                        "line": 804
+                        "line": 805
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 42,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 46,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "topMargin",
-                        "line": 805
+                        "line": 806
                     },
                     {
                         "codegenSuccessful": false,
@@ -2241,7 +2241,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"placeholderTextColor\".",
                         "functionName": "placeholderTextColor",
-                        "line": 811
+                        "line": 812
                     },
                     {
                         "codegenSuccessful": false,
@@ -2249,7 +2249,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"color\".",
                         "functionName": "color",
-                        "line": 812
+                        "line": 813
                     },
                     {
                         "codegenSuccessful": false,
@@ -2257,7 +2257,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"pixelSize\".",
                         "functionName": "pixelSize",
-                        "line": 814
+                        "line": 815
                     },
                     {
                         "codegenSuccessful": false,
@@ -2265,7 +2265,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"left\".",
                         "functionName": "left",
-                        "line": 815
+                        "line": 816
                     },
                     {
                         "codegenSuccessful": false,
@@ -2273,7 +2273,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"leftMargin\".",
                         "functionName": "leftMargin",
-                        "line": 816
+                        "line": 817
                     },
                     {
                         "codegenSuccessful": false,
@@ -2281,7 +2281,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"right\".",
                         "functionName": "right",
-                        "line": 817
+                        "line": 818
                     },
                     {
                         "codegenSuccessful": false,
@@ -2289,7 +2289,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"rightMargin\".",
                         "functionName": "rightMargin",
-                        "line": 818
+                        "line": 819
                     },
                     {
                         "codegenSuccessful": false,
@@ -2297,7 +2297,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 819
+                        "line": 820
                     },
                     {
                         "codegenSuccessful": false,
@@ -2305,215 +2305,95 @@
                         "durationMicroseconds": 94,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
-                        "line": 825
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 27,
-                        "durationMicroseconds": 35,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "radius",
                         "line": 826
                     },
                     {
                         "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "Cannot access value for name tailwind",
+                        "functionName": "radius",
+                        "line": 827
+                    },
+                    {
+                        "codegenSuccessful": false,
                         "column": 34,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 50,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "implicitWidth",
-                        "line": 827
+                        "line": 828
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 89,
                         "errorMessage": "",
                         "functionName": "implicitHeight",
-                        "line": 829
+                        "line": 830
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 36,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "type",
-                        "line": 834
+                        "line": 835
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
-                        "line": 842
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 152,
-                        "errorMessage": "",
-                        "functionName": "family",
-                        "line": 841
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 37,
-                        "durationMicroseconds": 40,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "pixelSize",
                         "line": 843
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 51,
+                        "column": 34,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
-                        "functionName": "centerIn",
+                        "functionName": "family",
+                        "line": 842
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot access value for name tailwind",
+                        "functionName": "pixelSize",
                         "line": 844
                     },
                     {
                         "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 845
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 34,
-                        "durationMicroseconds": 169,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 851
+                        "line": 852
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 137,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 849
+                        "line": 850
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 50,
                         "errorMessage": "Cannot access value for name tailwind",
                         "functionName": "color",
-                        "line": 860
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 24,
-                        "durationMicroseconds": 40,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "color",
-                        "line": 875
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 33,
-                        "durationMicroseconds": 55,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "implicitHeight",
-                        "line": 877
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 57,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "spacing",
-                        "line": 887
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 33,
-                        "durationMicroseconds": 54,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 882
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "leftMargin",
-                        "line": 883
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 35,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "rightMargin",
-                        "line": 884
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 33,
-                        "durationMicroseconds": 93,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 885
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 34,
-                        "durationMicroseconds": 86,
-                        "errorMessage": "",
-                        "functionName": "right",
-                        "line": 886
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 241,
-                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
-                        "functionName": "model",
-                        "line": 890
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 29,
-                        "durationMicroseconds": 318,
-                        "errorMessage": "Cannot access value for name modelData",
-                        "functionName": "text",
-                        "line": 893
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 30,
-                        "durationMicroseconds": 37,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "color",
-                        "line": 894
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 42,
-                        "durationMicroseconds": 72,
-                        "errorMessage": "",
-                        "functionName": "verticalAlignment",
-                        "line": 897
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 30,
-                        "durationMicroseconds": 65,
-                        "errorMessage": "",
-                        "functionName": "elide",
-                        "line": 899
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 38,
-                        "errorMessage": "Cannot access value for name tailwind",
-                        "functionName": "pixelSize",
-                        "line": 895
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 36,
-                        "durationMicroseconds": 64,
-                        "errorMessage": "",
-                        "functionName": "weight",
-                        "line": 896
+                        "line": 861
                     }
                 ],
                 "filePath": "D:/Day la folder cua Thanh Binh/JD/Qt QML/first_start/Main.qml"

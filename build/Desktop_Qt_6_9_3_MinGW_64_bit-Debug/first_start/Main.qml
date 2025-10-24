@@ -760,6 +760,7 @@ Window {
           ColumnLayout {
             id: testRunContent
             anchors.fill: parent
+            spacing: 0
 
             RowLayout {
               Layout.fillWidth: true
@@ -860,92 +861,92 @@ Window {
               color: tailwind.colors.dark700
             }
 
-            Text {
-              text: "Hello"
-              color: "white"
-            }
+            // Text {
+            //   text: "Hello"
+            //   color: "white"
+            // }
 
-            // Test Runs Table
-            ColumnLayout {
-              Layout.fillWidth: true
-              spacing: 2
+            // // Test Runs Table
+            // ColumnLayout {
+            //   Layout.fillWidth: true
+            //   // spacing: 2
 
-              // Test Runs Header
-              Rectangle {
-                color: tailwind.colors.dark700
-                Layout.fillWidth: true
-                implicitHeight: testRunHeaderRow.implicitHeight + 2 * tailwind.space(
-                                  3)
+            //   // Test Runs Header
+            //   Rectangle {
+            //     color: tailwind.colors.dark700
+            //     Layout.fillWidth: true
+            //     implicitHeight: testRunHeaderRow.implicitHeight + 1 * tailwind.space(
+            //                       3)
 
-                RowLayout {
-                  id: testRunHeaderRow
-                  anchors.fill: parent
-                  anchors.leftMargin: tailwind.space(6)
-                  anchors.rightMargin: tailwind.space(6)
-                  anchors.left: parent.left
-                  anchors.right: parent.right
-                  spacing: tailwind.space(6)
+            //     RowLayout {
+            //       id: testRunHeaderRow
+            //       anchors.fill: parent
+            //       anchors.leftMargin: tailwind.space(6)
+            //       anchors.rightMargin: tailwind.space(6)
+            //       anchors.left: parent.left
+            //       anchors.right: parent.right
+            //       spacing: tailwind.space(6)
 
-                  Repeater {
-                    model: ["Run ID", "Test Suite", "Environment", "Status", "Duration", "Date", "Actions"]
+            //       Repeater {
+            //         model: ["Run ID", "Test Suite", "Environment", "Status", "Duration", "Date", "Actions"]
 
-                    delegate: Text {
-                      text: modelData
-                      color: tailwind.colors.gray400
-                      font.pixelSize: tailwind.fontSize.base
-                      font.weight: Font.Medium
-                      verticalAlignment: Text.AlignVCenter
-                      Layout.fillWidth: true
-                      elide: Text.ElideRight
-                    }
-                  }
-                }
-              }
+            //         delegate: Text {
+            //           text: modelData
+            //           color: tailwind.colors.gray400
+            //           font.pixelSize: tailwind.fontSize.base
+            //           font.weight: Font.Medium
+            //           verticalAlignment: Text.AlignVCenter
+            //           Layout.fillWidth: true
+            //           elide: Text.ElideRight
+            //         }
+            //       }
+            //     }
+            //   }
 
-              // // Table
-              // TableView {
-              //   id: tableView
-              //   Layout.fillWidth: true
-              //   implicitHeight: contentHeight
-              //   clip: true
-              //   columnSpacing: 1
-              //   rowSpacing: 1
+            //   // // Table
+            //   // TableView {
+            //   //   id: tableView
+            //   //   Layout.fillWidth: true
+            //   //   implicitHeight: contentHeight
+            //   //   clip: true
+            //   //   columnSpacing: 1
+            //   //   rowSpacing: 1
 
-              //   model: TableModel {
-              //     TableModelColumn {
-              //       display: "name"
-              //     }
-              //     TableModelColumn {
-              //       display: "color"
-              //     }
+            //   //   model: TableModel {
+            //   //     TableModelColumn {
+            //   //       display: "name"
+            //   //     }
+            //   //     TableModelColumn {
+            //   //       display: "color"
+            //   //     }
 
-              //     rows: [{
-              //         "name": "cat",
-              //         "color": "black"
-              //       }, {
-              //         "name": "dog",
-              //         "color": "brown"
-              //       }, {
-              //         "name": "bird",
-              //         "color": "white"
-              //       }]
-              //   }
+            //   //     rows: [{
+            //   //         "name": "cat",
+            //   //         "color": "black"
+            //   //       }, {
+            //   //         "name": "dog",
+            //   //         "color": "brown"
+            //   //       }, {
+            //   //         "name": "bird",
+            //   //         "color": "white"
+            //   //       }]
+            //   //   }
 
-              //   delegate: Rectangle {
-              //     implicitHeight: 40
-              //     implicitWidth: 100
-              //     border.width: 1
-              //     border.color: tailwind.colors.dark700
-              //     color: tailwind.colors.dark800
+            //   //   delegate: Rectangle {
+            //   //     implicitHeight: 40
+            //   //     implicitWidth: 100
+            //   //     border.width: 1
+            //   //     border.color: tailwind.colors.dark700
+            //   //     color: tailwind.colors.dark800
 
-              //     Text {
-              //       text: display
-              //       anchors.centerIn: parent
-              //       color: tailwind.colors.gray200
-              //     }
-              //   }
-              // }
-            }
+            //   //     Text {
+            //   //       text: display
+            //   //       anchors.centerIn: parent
+            //   //       color: tailwind.colors.gray200
+            //   //     }
+            //   //   }
+            //   // }
+            // }
           }
         }
       }
