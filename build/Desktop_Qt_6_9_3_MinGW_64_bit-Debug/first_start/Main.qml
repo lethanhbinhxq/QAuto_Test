@@ -12,8 +12,13 @@ Window {
   color: tailwind.colors.dark900
 
   FontLoader {
-    id: fa
-    source: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-solid-900.ttf"
+    id: faSolid
+    source: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-solid-900.ttf"
+  }
+
+  FontLoader {
+    id: faBrands
+    source: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-brands-400.ttf"
   }
 
   property var tailwind: ({
@@ -23,7 +28,9 @@ Window {
                               "green500": "#00c951",
                               "red500": "#fb2c36",
                               "blue500": "#2b7fff",
+                              "blue400": "#51a2ff",
                               "yellow500": "#efb100",
+                              "orange500": "#ff6900",
                               "dark900": "#0f172a",
                               "dark800": "#1e293b",
                               "dark700": "#334155",
@@ -101,7 +108,7 @@ Window {
 
             Text {
               text: "\uf544"
-              font.family: fa.name
+              font.family: faSolid.name
               font.pixelSize: tailwind.fontSize.xl3
               color: tailwind.colors.primary500
               verticalAlignment: Text.AlignVCenter
@@ -147,7 +154,7 @@ Window {
                 Text {
                   id: bellIcon
                   text: "\uf0f3"
-                  font.family: fa.name
+                  font.family: faSolid.name
                   font.pixelSize: tailwind.fontSize.xl
                   color: tailwind.colors.gray200
                   anchors.centerIn: parent
@@ -271,7 +278,7 @@ Window {
                     Text {
                       id: newTestIcon
                       text: "\uf067"
-                      font.family: fa.name
+                      font.family: faSolid.name
                       color: tailwind.colors.gray200
                       font.pixelSize: tailwind.fontSize.base
                     }
@@ -317,7 +324,7 @@ Window {
                     Text {
                       id: settingIcon
                       text: "\uf013"
-                      font.family: fa.name
+                      font.family: faSolid.name
                       color: tailwind.colors.gray200
                       font.pixelSize: tailwind.fontSize.base
                     }
@@ -398,7 +405,7 @@ Window {
 
                   Text {
                     text: modelData.icon
-                    font.family: fa.name
+                    font.family: faSolid.name
                     font.weight: Font.Medium
                     font.pixelSize: tailwind.fontSize.base
                     color: navMouse.containsMouse
@@ -506,7 +513,7 @@ Window {
 
                   Text {
                     text: "\uf00c"
-                    font.family: fa.name
+                    font.family: faSolid.name
                     font.pixelSize: tailwind.fontSize.base
                     color: tailwind.colors.green500
                     anchors.centerIn: parent
@@ -576,7 +583,7 @@ Window {
 
                   Text {
                     text: "\uf201"
-                    font.family: fa.name
+                    font.family: faSolid.name
                     font.pixelSize: tailwind.fontSize.base
                     color: tailwind.colors.blue500
                     anchors.centerIn: parent
@@ -590,7 +597,7 @@ Window {
 
                 Text {
                   text: "\uf062"
-                  font.family: fa.name
+                  font.family: faSolid.name
                   font.pixelSize: tailwind.fontSize.sm
                   color: tailwind.colors.green500
                 }
@@ -648,7 +655,7 @@ Window {
 
                   Text {
                     text: "\uf00d"
-                    font.family: fa.name
+                    font.family: faSolid.name
                     font.pixelSize: tailwind.fontSize.base
                     color: tailwind.colors.red500
                     anchors.centerIn: parent
@@ -662,7 +669,7 @@ Window {
 
                 Text {
                   text: "\uf062"
-                  font.family: fa.name
+                  font.family: faSolid.name
                   font.pixelSize: tailwind.fontSize.sm
                   color: tailwind.colors.red500
                 }
@@ -720,7 +727,7 @@ Window {
 
                   Text {
                     text: "\uf3ed"
-                    font.family: fa.name
+                    font.family: faSolid.name
                     font.pixelSize: tailwind.fontSize.base
                     color: tailwind.colors.yellow500
                     anchors.centerIn: parent
@@ -797,7 +804,7 @@ Window {
                     Text {
                       id: searchIcon
                       text: "\uf002"
-                      font.family: fa.name
+                      font.family: faSolid.name
                       color: tailwind.colors.gray400
                       font.pixelSize: tailwind.fontSize.base
                       anchors.left: parent.left
@@ -839,7 +846,7 @@ Window {
                   Text {
                     id: filterIcon
                     text: "\uf0b0"
-                    font.family: fa.name
+                    font.family: faSolid.name
                     color: tailwind.colors.gray200
                     font.pixelSize: tailwind.fontSize.base
                     anchors.centerIn: parent
@@ -866,87 +873,226 @@ Window {
             //   color: "white"
             // }
 
-            // // Test Runs Table
-            // ColumnLayout {
-            //   Layout.fillWidth: true
-            //   // spacing: 2
+            // Test Runs Table
+            ColumnLayout {
+              Layout.fillWidth: true
+              spacing: 0
 
-            //   // Test Runs Header
-            //   Rectangle {
-            //     color: tailwind.colors.dark700
-            //     Layout.fillWidth: true
-            //     implicitHeight: testRunHeaderRow.implicitHeight + 1 * tailwind.space(
-            //                       3)
+              // // Test Runs Header
+              // Rectangle {
+              //   color: tailwind.colors.dark700
+              //   Layout.fillWidth: true
+              //   implicitHeight: testRunHeaderRow.implicitHeight + 1 * tailwind.space(
+              //                     3)
 
-            //     RowLayout {
-            //       id: testRunHeaderRow
-            //       anchors.fill: parent
-            //       anchors.leftMargin: tailwind.space(6)
-            //       anchors.rightMargin: tailwind.space(6)
-            //       anchors.left: parent.left
-            //       anchors.right: parent.right
-            //       spacing: tailwind.space(6)
+              //   RowLayout {
+              //     id: testRunHeaderRow
+              //     anchors.fill: parent
+              //     anchors.leftMargin: tailwind.space(6)
+              //     anchors.rightMargin: tailwind.space(6)
+              //     anchors.left: parent.left
+              //     anchors.right: parent.right
+              //     spacing: tailwind.space(6)
 
-            //       Repeater {
-            //         model: ["Run ID", "Test Suite", "Environment", "Status", "Duration", "Date", "Actions"]
+              //     Repeater {
+              //       model: ["Run ID", "Test Suite", "Environment", "Status", "Duration", "Date", "Actions"]
 
-            //         delegate: Text {
-            //           text: modelData
-            //           color: tailwind.colors.gray400
-            //           font.pixelSize: tailwind.fontSize.base
-            //           font.weight: Font.Medium
-            //           verticalAlignment: Text.AlignVCenter
-            //           Layout.fillWidth: true
-            //           elide: Text.ElideRight
-            //         }
-            //       }
-            //     }
-            //   }
+              //       delegate: Text {
+              //         text: modelData
+              //         color: tailwind.colors.gray400
+              //         font.pixelSize: tailwind.fontSize.base
+              //         font.weight: Font.Medium
+              //         verticalAlignment: Text.AlignVCenter
+              //         Layout.fillWidth: true
+              //         elide: Text.ElideRight
+              //       }
+              //     }
+              //   }
+              // }
 
-            //   // // Table
-            //   // TableView {
-            //   //   id: tableView
-            //   //   Layout.fillWidth: true
-            //   //   implicitHeight: contentHeight
-            //   //   clip: true
-            //   //   columnSpacing: 1
-            //   //   rowSpacing: 1
+              // Table
+              HorizontalHeaderView {
+                id: horizontalHeader
+                anchors.left: tableView.left
+                anchors.top: parent.top
+                syncView: tableView
+                clip: true
 
-            //   //   model: TableModel {
-            //   //     TableModelColumn {
-            //   //       display: "name"
-            //   //     }
-            //   //     TableModelColumn {
-            //   //       display: "color"
-            //   //     }
+                model: ListModel {
+                  ListElement {
+                    display: "Run ID"
+                  }
+                  ListElement {
+                    display: "Test Suite"
+                  }
+                  ListElement {
+                    display: "Environment"
+                  }
+                  ListElement {
+                    display: "Status"
+                  }
+                  ListElement {
+                    display: "Duration"
+                  }
+                  ListElement {
+                    display: "Date"
+                  }
+                  ListElement {
+                    display: "Actions"
+                  }
+                }
 
-            //   //     rows: [{
-            //   //         "name": "cat",
-            //   //         "color": "black"
-            //   //       }, {
-            //   //         "name": "dog",
-            //   //         "color": "brown"
-            //   //       }, {
-            //   //         "name": "bird",
-            //   //         "color": "white"
-            //   //       }]
-            //   //   }
+                delegate: Rectangle {
+                  color: tailwind.colors.dark700
+                  border.width: 0
+                  Text {
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: tailwind.space(6)
+                    anchors.rightMargin: tailwind.space(6)
+                    anchors.topMargin: tailwind.space(3)
+                    anchors.bottomMargin: tailwind.space(3)
+                    text: display
+                    color: tailwind.colors.gray400
+                    font.weight: Font.Medium
+                    font.pixelSize: tailwind.fontSize.base
+                  }
+                }
+              }
 
-            //   //   delegate: Rectangle {
-            //   //     implicitHeight: 40
-            //   //     implicitWidth: 100
-            //   //     border.width: 1
-            //   //     border.color: tailwind.colors.dark700
-            //   //     color: tailwind.colors.dark800
+              TableView {
+                id: tableView
+                Layout.fillWidth: true
+                implicitHeight: contentHeight
+                clip: true
+                columnSpacing: 0
+                rowSpacing: 0
 
-            //   //     Text {
-            //   //       text: display
-            //   //       anchors.centerIn: parent
-            //   //       color: tailwind.colors.gray200
-            //   //     }
-            //   //   }
-            //   // }
-            // }
+                FontMetrics {
+                  id: fontMetrics
+                  font.pixelSize: tailwind.fontSize.base
+                }
+
+                model: TableModel {
+                  TableModelColumn {
+                    display: "runId"
+                  }
+                  TableModelColumn {
+                    display: "testSuite"
+                  }
+                  TableModelColumn {
+                    display: "environment"
+                  }
+                  TableModelColumn {
+                    display: "status"
+                  }
+                  TableModelColumn {
+                    display: "duration"
+                  }
+                  TableModelColumn {
+                    display: "date"
+                  }
+                  TableModelColumn {
+                    display: "actions"
+                  }
+
+                  rows: [{
+                      "runId": {
+                        "text": "#TR-1024"
+                      },
+                      "testSuite": {
+                        "icon": "\uf06d",
+                        "text"// fire (solid)
+                        : "Smoke Tests",
+                        "color": tailwind.colors.orange500,
+                        "style": "solid"
+                      },
+                      "environment": {
+                        "icon": "\uf268",
+                        "text"// chrome (brands)
+                        : "Chrome v112",
+                        "color": tailwind.colors.blue400,
+                        "style": "brands"
+                      },
+                      "status": {
+                        "icon": "\uf058",
+                        "text": "Passed",
+                        "color": "lightgreen",
+                        "style": "solid"
+                      },
+                      "duration": {
+                        "text": "2m 14s"
+                      },
+                      "date": {
+                        "text": "Today, 10:42 AM"
+                      },
+                      "actions": {
+                        "icon": "\uf142",
+                        "style": "solid",
+                        "color": tailwind.colors.gray400
+                      }
+                    }]
+                }
+
+                // Automatically size columns based on content
+                columnWidthProvider: function (column) {
+                  const columnKey = tableView.model.columns[column].display
+                  let maxWidth = fontMetrics.boundingRect(
+                        horizontalHeader.model.get(column).display).width
+
+                  for (let row of tableView.model.rows) {
+                    const cell = row[columnKey]
+                    if (cell && cell.text) {
+                      const w = fontMetrics.boundingRect(cell.text).width
+                      if (w > maxWidth)
+                        maxWidth = w
+                    }
+                  }
+                  return maxWidth + tailwind.space(14)
+                }
+
+                delegate: Rectangle {
+                  implicitHeight: contentHeight
+                  border.width: 0
+                  color: tailwind.colors.dark800
+
+                  RowLayout {
+                    spacing: display.icon ? tailwind.space(2) : 0
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: tailwind.space(6)
+                    anchors.rightMargin: tailwind.space(6)
+                    anchors.topMargin: tailwind.space(4)
+                    anchors.bottomMargin: tailwind.space(4)
+
+                    // icon (optional)
+                    Text {
+                      visible: display.icon
+                      text: display.icon
+                      font.family: display.style === "brands" ? faBrands.name : faSolid.name
+                      font.pixelSize: tailwind.fontSize.base
+                      color: display.color ?? tailwind.colors.gray200
+                    }
+
+                    // text (optional)
+                    Text {
+                      visible: display.text
+                      text: display.text
+                      color: tailwind.colors.gray200
+                      font.pixelSize: tailwind.fontSize.base
+                    }
+                  }
+
+                  Rectangle {
+                    anchors.right: parent.right
+                    anchors.left: parent.left
+                    anchors.bottom: parent.bottom
+                    height: 1
+                    color: tailwind.colors.dark700
+                  }
+                }
+              }
+            }
           }
         }
       }
