@@ -69,6 +69,33 @@ Window {
                             }
                           })
 
+  property var statusStyles: ({
+                                "Passed": {
+                                  "background": Qt.rgba(74 / 255, 222 / 255,
+                                                        128 / 255, 0.1),
+                                  "color": "#4ade80",
+                                  "icon": "\uf058"
+                                },
+                                "Failed": {
+                                  "background": Qt.rgba(248 / 255, 113 / 255,
+                                                        113 / 255, 0.1),
+                                  "color": "#f87171",
+                                  "icon": "\uf057"
+                                },
+                                "Running": {
+                                  "background": Qt.rgba(250 / 255, 204 / 255,
+                                                        21 / 255, 0.1),
+                                  "color": "#facc15",
+                                  "icon": "\uf110"
+                                },
+                                "Pending": {
+                                  "background": Qt.rgba(148 / 255, 163 / 255,
+                                                        184 / 255, 0.1),
+                                  "color": "#94a3b8",
+                                  "icon": "\uf017"
+                                }
+                              })
+
   ScrollView {
     anchors.fill: parent
 
@@ -878,43 +905,14 @@ Window {
               Layout.fillWidth: true
               spacing: 0
 
-              // // Test Runs Header
-              // Rectangle {
-              //   color: tailwind.colors.dark700
-              //   Layout.fillWidth: true
-              //   implicitHeight: testRunHeaderRow.implicitHeight + 1 * tailwind.space(
-              //                     3)
-
-              //   RowLayout {
-              //     id: testRunHeaderRow
-              //     anchors.fill: parent
-              //     anchors.leftMargin: tailwind.space(6)
-              //     anchors.rightMargin: tailwind.space(6)
-              //     anchors.left: parent.left
-              //     anchors.right: parent.right
-              //     spacing: tailwind.space(6)
-
-              //     Repeater {
-              //       model: ["Run ID", "Test Suite", "Environment", "Status", "Duration", "Date", "Actions"]
-
-              //       delegate: Text {
-              //         text: modelData
-              //         color: tailwind.colors.gray400
-              //         font.pixelSize: tailwind.fontSize.base
-              //         font.weight: Font.Medium
-              //         verticalAlignment: Text.AlignVCenter
-              //         Layout.fillWidth: true
-              //         elide: Text.ElideRight
-              //       }
-              //     }
-              //   }
-              // }
-
               // Table
               HorizontalHeaderView {
                 id: horizontalHeader
-                anchors.left: tableView.left
-                anchors.top: parent.top
+                // anchors.left: tableView.left
+                // anchors.top: parent.top
+                // Layout.fillWidth: true
+                // width: testRunContent.width
+                width: tableView.width
                 syncView: tableView
                 clip: true
 
@@ -1034,7 +1032,6 @@ Window {
                     }]
                 }
 
-                // Automatically size columns based on content
                 columnWidthProvider: function (column) {
                   const columnKey = tableView.model.columns[column].display
                   let maxWidth = fontMetrics.boundingRect(
@@ -1048,7 +1045,10 @@ Window {
                         maxWidth = w
                     }
                   }
-                  return maxWidth + tailwind.space(14)
+
+                  return Math.max(
+                        maxWidth + tailwind.space(14),
+                        tableView.width / tableView.model.columns.length)
                 }
 
                 delegate: Rectangle {
