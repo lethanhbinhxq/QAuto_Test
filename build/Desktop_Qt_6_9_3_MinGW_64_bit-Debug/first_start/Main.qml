@@ -26,11 +26,16 @@ Window {
                               "gray200": "#e5e7eb",
                               "gray400": "#99a1af",
                               "green500": "#00c951",
+                              "green400": "#05df72",
                               "red500": "#fb2c36",
                               "blue500": "#2b7fff",
                               "blue400": "#51a2ff",
+                              "blue300": "#8ec5ff",
+                              "yellow400": "#fcc800",
                               "yellow500": "#efb100",
                               "orange500": "#ff6900",
+                              "orange400": "#ff8904",
+                              "purple400": "#c27aff",
                               "dark900": "#0f172a",
                               "dark800": "#1e293b",
                               "dark700": "#334155",
@@ -895,11 +900,6 @@ Window {
               color: tailwind.colors.dark700
             }
 
-            // Text {
-            //   text: "Hello"
-            //   color: "white"
-            // }
-
             // Test Runs Table
             ColumnLayout {
               Layout.fillWidth: true
@@ -965,6 +965,7 @@ Window {
                 clip: true
                 columnSpacing: 0
                 rowSpacing: 0
+                property int hoveredRow: -1
 
                 FontMetrics {
                   id: fontMetrics
@@ -1000,23 +1001,18 @@ Window {
                       },
                       "testSuite": {
                         "icon": "\uf06d",
-                        "text"// fire (solid)
-                        : "Smoke Tests",
+                        "text": "Smoke Tests",
                         "color": tailwind.colors.orange500,
                         "style": "solid"
                       },
                       "environment": {
                         "icon": "\uf268",
-                        "text"// chrome (brands)
-                        : "Chrome v112",
+                        "text": "Chrome v112",
                         "color": tailwind.colors.blue400,
                         "style": "brands"
                       },
                       "status": {
-                        "icon": "\uf058",
-                        "text": "Passed",
-                        "color": "lightgreen",
-                        "style": "solid"
+                        "text": "Passed"
                       },
                       "duration": {
                         "text": "2m 14s"
@@ -1029,54 +1025,247 @@ Window {
                         "style": "solid",
                         "color": tailwind.colors.gray400
                       }
+                    }, {
+                      "runId": {
+                        "text": "#TR-1023"
+                      },
+                      "testSuite": {
+                        "icon": "\uf0ae",
+                        "text": "Regression Suite",
+                        "color": tailwind.colors.blue400,
+                        "style": "solid"
+                      },
+                      "environment": {
+                        "icon": "\uf269",
+                        "text": "Firefox v111",
+                        "color": tailwind.colors.orange400,
+                        "style": "brands"
+                      },
+                      "status": {
+                        "text": "Failed"
+                      },
+                      "duration": {
+                        "text": "8m 37s"
+                      },
+                      "date": {
+                        "text": "Yesterday, 3:15 PM"
+                      },
+                      "actions": {
+                        "icon": "\uf142",
+                        "style": "solid",
+                        "color": tailwind.colors.gray400
+                      }
+                    }, {
+                      "runId": {
+                        "text": "#TR-1022"
+                      },
+                      "testSuite": {
+                        "icon": "\uf3cf",
+                        "text": "Mobile Tests",
+                        "color": tailwind.colors.purple400,
+                        "style": "solid"
+                      },
+                      "environment": {
+                        "icon": "\uf267",
+                        "text": "Safari v16",
+                        "color": tailwind.colors.blue500,
+                        "style": "brands"
+                      },
+                      "status": {
+                        "text": "Running"
+                      },
+                      "duration": {
+                        "text": "-"
+                      },
+                      "date": {
+                        "text": "Today, 11:20 AM"
+                      },
+                      "actions": {
+                        "icon": "\uf142",
+                        "style": "solid",
+                        "color": tailwind.colors.gray400
+                      }
+                    }, {
+                      "runId": {
+                        "text": "#TR-1021"
+                      },
+                      "testSuite": {
+                        "icon": "\uf0e7",
+                        "text": "Performance Tests",
+                        "color": tailwind.colors.yellow400,
+                        "style": "solid"
+                      },
+                      "environment": {
+                        "icon": "\uf282",
+                        "text": "Edge v112",
+                        "color": tailwind.colors.blue300,
+                        "style": "brands"
+                      },
+                      "status": {
+                        "text": "Passed"
+                      },
+                      "duration": {
+                        "text": "15m 22s"
+                      },
+                      "date": {
+                        "text": "Yesterday, 10:05 AM"
+                      },
+                      "actions": {
+                        "icon": "\uf142",
+                        "style": "solid",
+                        "color": tailwind.colors.gray400
+                      }
+                    }, {
+                      "runId": {
+                        "text": "#TR-1020"
+                      },
+                      "testSuite": {
+                        "icon": "\uf505",
+                        "text": "Security Tests",
+                        "color": tailwind.colors.green400,
+                        "style": "solid"
+                      },
+                      "environment": {
+                        "icon": "\uf268",
+                        "text": "Chrome v112",
+                        "color": tailwind.colors.blue400,
+                        "style": "brands"
+                      },
+                      "status": {
+                        "text": "Pending"
+                      },
+                      "duration": {
+                        "text": "-"
+                      },
+                      "date": {
+                        "text": "Scheduled"
+                      },
+                      "actions": {
+                        "icon": "\uf142",
+                        "style": "solid",
+                        "color": tailwind.colors.gray400
+                      }
                     }]
                 }
 
                 columnWidthProvider: function (column) {
-                  const columnKey = tableView.model.columns[column].display
-                  let maxWidth = fontMetrics.boundingRect(
-                        horizontalHeader.model.get(column).display).width
+                  let textWidths = []
+                  let totalWidth = 0
+                  const columnCount = tableView.model.columns.length
 
-                  for (let row of tableView.model.rows) {
-                    const cell = row[columnKey]
-                    if (cell && cell.text) {
-                      const w = fontMetrics.boundingRect(cell.text).width
-                      if (w > maxWidth)
-                        maxWidth = w
+                  for (var i = 0; i < columnCount; i++) {
+                    const columnKey = tableView.model.columns[i].display
+                    let maxWidth = fontMetrics.boundingRect(
+                          horizontalHeader.model.get(i).display).width
+
+                    for (let row of tableView.model.rows) {
+                      const cell = row[columnKey]
+                      if (cell && cell.text) {
+                        const w = fontMetrics.boundingRect(cell.text).width
+                        if (w > maxWidth)
+                          maxWidth = w
+                      }
                     }
+
+                    maxWidth += tailwind.space(10)
+                    textWidths.push(maxWidth)
+                    totalWidth += maxWidth
                   }
 
-                  return Math.max(
-                        maxWidth + tailwind.space(14),
-                        tableView.width / tableView.model.columns.length)
+                  const currentWidth = textWidths[column]
+                  const ratio = currentWidth / totalWidth
+                  const finalWidth = tableView.width * ratio
+
+                  return finalWidth
                 }
 
                 delegate: Rectangle {
-                  implicitHeight: contentHeight
+                  implicitHeight: contentHeight + 2 * tailwind.space(4)
                   border.width: 0
-                  color: tailwind.colors.dark800
+                  color: tableView.hoveredRow
+                         === row ? tailwind.colors.dark700 : tailwind.colors.dark800
+
+                  Behavior on color {
+                    ColorAnimation {
+                      duration: 150
+                      easing.type: Easing.InOutQuad
+                    }
+                  }
+
+                  MouseArea {
+                    id: cellMouse
+                    anchors.fill: parent
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+
+                    onEntered: {
+                      tableView.hoveredRow = row
+                    }
+                    onExited: {
+                      if (tableView.hoveredRow === row)
+                        tableView.hoveredRow = -1
+                    }
+                  }
 
                   RowLayout {
-                    spacing: display.icon ? tailwind.space(2) : 0
-                    anchors.verticalCenter: parent.verticalCenter
-                    anchors.left: parent.left
+                    id: cellRow
+                    anchors.fill: parent
+                    anchors.margins: 0
                     anchors.leftMargin: tailwind.space(6)
                     anchors.rightMargin: tailwind.space(6)
                     anchors.topMargin: tailwind.space(4)
                     anchors.bottomMargin: tailwind.space(4)
+                    spacing: tailwind.space(2)
 
-                    // icon (optional)
-                    Text {
-                      visible: display.icon
-                      text: display.icon
-                      font.family: display.style === "brands" ? faBrands.name : faSolid.name
-                      font.pixelSize: tailwind.fontSize.base
-                      color: display.color ?? tailwind.colors.gray200
+                    // --- Status column (index 3)
+                    Loader {
+                      active: column === 3
+                      sourceComponent: statusBadge
+                      onLoaded: {
+                        const st = root.statusStyles[display.text] || {}
+                        item.statusText = display.text
+                        item.background = st.background
+                        item.textColor = st.color
+                        item.iconText = st.icon
+                      }
                     }
 
-                    // text (optional)
+                    // --- Actions column (index 6)
                     Text {
-                      visible: display.text
+                      visible: column === 6
+                      text: display.icon
+                      font.family: faSolid.name
+                      font.pixelSize: tailwind.fontSize.base
+                      color: display.color ?? tailwind.colors.gray400
+                      horizontalAlignment: Text.AlignHCenter
+                      verticalAlignment: Text.AlignVCenter
+                    }
+
+                    // --- Icon + Text columns (Test Suite and Environment)
+                    RowLayout {
+                      visible: column === 1 || column === 2
+                      spacing: tailwind.space(2)
+
+                      Text {
+                        visible: display.icon
+                        text: display.icon
+                        font.family: display.style === "brands" ? faBrands.name : faSolid.name
+                        font.pixelSize: tailwind.fontSize.base
+                        color: display.color ?? tailwind.colors.gray400
+                        verticalAlignment: Text.AlignVCenter
+                      }
+
+                      Text {
+                        text: display.text
+                        color: tailwind.colors.gray200
+                        font.pixelSize: tailwind.fontSize.base
+                        verticalAlignment: Text.AlignVCenter
+                      }
+                    }
+
+                    Text {
+                      visible: column !== 3 && column !== 6 && column !== 1
+                               && column !== 2
                       text: display.text
                       color: tailwind.colors.gray200
                       font.pixelSize: tailwind.fontSize.base
@@ -1089,6 +1278,169 @@ Window {
                     anchors.bottom: parent.bottom
                     height: 1
                     color: tailwind.colors.dark700
+                  }
+                }
+
+                Component {
+                  id: statusBadge
+
+                  Rectangle {
+                    property string statusText: ""
+                    property color background: tailwind.colors.dark700
+                    property color textColor: tailwind.colors.gray200
+                    property string iconText: ""
+
+                    radius: 12
+                    color: background
+                    implicitHeight: 24
+                    implicitWidth: content.implicitWidth + tailwind.space(4)
+
+                    RowLayout {
+                      id: content
+                      anchors.centerIn: parent
+                      spacing: tailwind.space(1)
+
+                      Text {
+                        text: iconText
+                        font.family: faSolid.name
+                        font.pixelSize: tailwind.fontSize.xs
+                        color: textColor
+                        visible: !!iconText
+                      }
+
+                      Text {
+                        text: statusText
+                        color: textColor
+                        font.pixelSize: tailwind.fontSize.xs
+                        font.weight: Font.Medium
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            // Text {
+            //   text: "Hello"
+            //   color: "white"
+            // }
+
+            // Pagination
+            Rectangle {
+              id: paginationBar
+              width: parent.width
+              height: paginationContent.implicitHeight + 2 * tailwind.space(4)
+              color: "transparent"
+              anchors.topMargin: tailwind.space(4)
+
+              RowLayout {
+                id: paginationContent
+                anchors.fill: parent
+                anchors.margins: tailwind.space(4)
+                spacing: tailwind.space(4)
+                Layout.alignment: Qt.AlignVCenter
+
+                // --- Left Text ---
+                Text {
+                  color: tailwind.colors.gray400
+                  text: `Showing <font color="white">1</font> to <font color="white">5</font> of <font color="white">24</font> runs`
+                  textFormat: Text.RichText
+                  font.pixelSize: tailwind.fontSize.sm
+                  Layout.fillWidth: true
+                  verticalAlignment: Text.AlignVCenter
+                }
+
+                RowLayout {
+                  spacing: tailwind.space(2)
+                  Layout.alignment: Qt.AlignRight | Qt.AlignVCenter
+
+                  // Prev Button
+                  Rectangle {
+                    width: 32
+                    height: 28
+                    radius: tailwind.space(2)
+                    color: prevMouse.containsMouse ? tailwind.colors.dark600 : tailwind.colors.dark700
+
+                    Behavior on color {
+                      ColorAnimation {
+                        duration: 100
+                      }
+                    }
+
+                    Text {
+                      text: "\uf053" // FontAwesome chevron-left
+                      font.family: faSolid.name
+                      font.pixelSize: tailwind.fontSize.sm
+                      anchors.centerIn: parent
+                      color: tailwind.colors.gray200
+                    }
+
+                    MouseArea {
+                      id: prevMouse
+                      anchors.fill: parent
+                      hoverEnabled: true
+                      cursorShape: Qt.PointingHandCursor
+                    }
+                  }
+
+                  // Page Numbers
+                  Repeater {
+                    model: [1, 2, 3]
+                    delegate: Rectangle {
+                      width: 32
+                      height: 28
+                      radius: tailwind.space(2)
+                      color: (modelData === 1) ? tailwind.colors.primary500 : (pageMouse.containsMouse ? tailwind.colors.dark600 : tailwind.colors.dark700)
+
+                      Behavior on color {
+                        ColorAnimation {
+                          duration: 100
+                        }
+                      }
+
+                      Text {
+                        text: modelData
+                        anchors.centerIn: parent
+                        color: (modelData === 1) ? "white" : tailwind.colors.gray200
+                        font.pixelSize: tailwind.fontSize.sm
+                      }
+
+                      MouseArea {
+                        id: pageMouse
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        cursorShape: Qt.PointingHandCursor
+                      }
+                    }
+                  }
+
+                  // Next Button
+                  Rectangle {
+                    width: 32
+                    height: 28
+                    radius: tailwind.space(2)
+                    color: nextMouse.containsMouse ? tailwind.colors.dark600 : tailwind.colors.dark700
+
+                    Behavior on color {
+                      ColorAnimation {
+                        duration: 100
+                      }
+                    }
+
+                    Text {
+                      text: "\uf054" // FontAwesome chevron-right
+                      font.family: faSolid.name
+                      font.pixelSize: tailwind.fontSize.sm
+                      anchors.centerIn: parent
+                      color: tailwind.colors.gray200
+                    }
+
+                    MouseArea {
+                      id: nextMouse
+                      anchors.fill: parent
+                      hoverEnabled: true
+                      cursorShape: Qt.PointingHandCursor
+                    }
                   }
                 }
               }

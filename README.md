@@ -9,6 +9,9 @@ This repository contains my submission for the QAuto coding test.
 ### 🧩 Overview
 ![Overview](./image/overview.jpg)
 
+### 🧪 Recent Test Runs Table
+![Overview](./image/table.jpg)
+
 ---
 
 ## 🧰 Tech Stack
