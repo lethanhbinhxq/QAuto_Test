@@ -10,7 +10,7 @@ This repository contains my submission for the QAuto coding test.
 ![Overview](./image/overview_.jpg)
 
 ### 🧪 Recent Test Runs Table
-![Overview](./image/table.jpg)
+![Table](./image/table.jpg)
 
 ---
 
