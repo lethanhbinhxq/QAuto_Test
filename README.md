@@ -7,7 +7,7 @@ This repository contains my submission for the QAuto coding test.
 ## 📸 Screenshots
 
 ### 🧩 Overview
-![Overview](./image/overview.jpg)
+![Overview](./image/overview_.jpg)
 
 ### 🧪 Recent Test Runs Table
 ![Overview](./image/table.jpg)
